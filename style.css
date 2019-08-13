@@ -1,6 +1,7 @@
 body{
 	font-family: "Times New Roman";
 	background-color:#F2FFFC;
+	line-height: 1.5;
 }
 main h1{
 	font-size:60px;
@@ -8,6 +9,14 @@ main h1{
 	color:#FAFFFA;
 	text-align: center;
 	font-family: "Open Sans Condensed";
+	padding: 25px;
+	margin: 0;
+	border-bottom: 10px solid black;
+}
+
+main a{
+	color: #851944;
+
 }
 
 h2{
@@ -19,3 +28,48 @@ p{
 	text-align: justify;
 	font-family: "Crimson Text";
 }
+
+blockquote{
+	background-color: #D9E5E3;
+	padding: 20px;
+	margin:0;
+	box-sizing: border-box; /*usando para usar o tamanho da caixa levando em consideração a borda*/
+	width: 250px;
+	border: 10px solid #C2CCCA; 
+	border-bottom-color:transparent;
+	border-right-color:transparent;  
+}
+
+
+aside{
+	background-color: #3C1D3D;
+	color:#F2FFFC;
+	padding: 20px;
+	text-align: center;
+
+}
+ul{
+	list-style-type: none;
+}
+aside a{
+	color:inherit; /*Pega a cor que foi definida no "main a"*/
+	font-family: "Open Sans Condensed", sans-serif;
+	text-decoration: none;
+}
+
+main div{
+	width: 720px;
+	margin:auto;
+
+}
+
+footer{
+	background-color:#000;
+	color:#F2FFFC;
+	padding: 20px;
+}
+
+
+nav a{
+	color:#F2FFFc;
+}	
