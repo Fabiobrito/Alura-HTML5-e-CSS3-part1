@@ -52,7 +52,7 @@ aside{
 	text-align: center;
 
 }
-aside li{
+.icon-sociais li{
 	display: inline-block;
 }
 ul{
@@ -83,13 +83,26 @@ h2{
 	font-size: 30px;
 }
 
-footer{
+.footer-home{
 	background-color:#000;
 	color:#F2FFFC;
 	padding: 20px;
 }
-
+main div article{
+	padding-bottom: 30px:
+	border-bottom:1px solid #ccc2;
+	margin-bottom: 20px; 
+}
 
 nav a{
 	color:#F2FFFc;
 }	
+
+.link-leia-mais{
+	padding:8px;
+	margin:16px;
+	display: block;
+	font-size: 24px;
+	text-align: center;
+	background-color: #E6E7E8;
+}
