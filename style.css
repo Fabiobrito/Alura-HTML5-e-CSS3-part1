@@ -65,6 +65,7 @@ main a {
 .navegacao-site h1 {
 	font-size: 30px;
 	margin-bottom: 25px;
+	text-transform:uppercase;
 }
 
 strong {
@@ -102,5 +103,16 @@ em {
 	width: 40px;
 	height: 40px;
 	display: inline-block;/*poder mudar o tamanho */
-	text-indent: -9999;
+	text-indent: -99999px;
+}
+.github{
+	background-image: url(github.png);
+}
+
+.twitter{
+	background-image: url(twitter.png);
+}
+
+.linkedin{
+	background-image: url(linkedin.png);
 }
