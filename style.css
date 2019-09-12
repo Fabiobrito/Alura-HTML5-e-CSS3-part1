@@ -24,7 +24,7 @@ p {
 	margin: 20px 0;
 }
 
-.citacao-bio {
+.citacao-bio1, .citacao-bio2 {
 	background-color: #D9E5E3;
 	border: 10px solid #C2CCCA;
 	width: 250px;
@@ -115,4 +115,31 @@ em {
 
 .linkedin{
 	background-image: url(linkedin.png);
+}
+/*fazer a citação flutuar ao lado do texto do main, e foto e menu flutuar ao lado do header */
+
+.citacao-bio1{
+	float:right;
+}
+.citacao-bio2{
+	float:left;
+}
+
+h2{
+	clear:both;/*não permite flutuação nem right e nem left*/
+}
+.minha-foto, aside{
+	width: 20%;
+	float:right;
+}
+aside{
+	clear:right;/* faz com que o aside fique abaixo da foto*/
+	 box-sizing: border-box;/* a largura total seja com border e padding*/
+}
+main{
+	width: 80%;
+	float:left;
+}
+.rodape-pagina{
+	clear:both;
 }
