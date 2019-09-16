@@ -30,6 +30,7 @@ p {
 	width: 250px;
 	box-sizing: border-box;
 	margin: 20px 40px;
+	padding:20px;
 }
 
 .navegacao-site {
@@ -113,15 +114,15 @@ em {
 	text-indent: -99999px;
 }
 .github{
-	background-image: url(github.png);
+	background-image: url(img/github.png);
 }
 
 .twitter{
-	background-image: url(twitter.png);
+	background-image: url(img/twitter.png);
 }
 
 .linkedin{
-	background-image: url(linkedin.png);
+	background-image: url(img/linkedin.png);
 }
 /*fazer a citação flutuar ao lado do texto do main, e foto e menu flutuar ao lado do header */
 
