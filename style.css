@@ -36,6 +36,10 @@ p {
 	text-align: center;
 	background-color: #3C1D3D;
 	color: #F2FFFC;
+	width: 15%;
+	position: relative;/*position relative e o top fazem a navegação fica abaixo da foto */
+	top:310px;
+	border-bottom: 10px solid black;
 }
 
 .rodape-pagina {
@@ -48,7 +52,7 @@ main a {
 }
 
 .navegacao-site a {
-	color: inherit;/* */
+	color: inherit;/*inherit herda a propriedade do pai  */
 	font-family: "Open Sans Condensed", sans-serif;
 }
 
@@ -59,13 +63,16 @@ main a {
 .container {
 	width: 720px;
 	margin: auto;
-	padding: 30px 0;
+	padding: 40px 0;
+	padding-bottom: 80px;
+
 }
 
 .navegacao-site h1 {
 	font-size: 30px;
 	margin-bottom: 25px;
 	text-transform:uppercase;
+
 }
 
 strong {
@@ -129,12 +136,15 @@ h2{
 	clear:both;/*não permite flutuação nem right e nem left*/
 }
 .minha-foto, aside{
-	width: 20%;
 	float:right;
+	border-left: 10px solid black;
+	border-bottom: : 10px solid black;
+	box-sizing: border-box;
 }
 aside{
 	clear:right;/* faz com que o aside fique abaixo da foto*/
-	 box-sizing: border-box;/* a largura total seja com border e padding*/
+	box-sizing: border-box;/* a largura total seja com border e padding*/
+	
 }
 main{
 	width: 80%;
@@ -142,4 +152,16 @@ main{
 }
 .rodape-pagina{
 	clear:both;
+	position:fixed;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	box-sizing: border-box;
+}
+/*aumentando o tamanho da foto usando o position */
+.minha-foto{
+	position: absolute;
+	top:0px;
+	right: 0px;
+	border-bottom: 10px solid black;
 }
